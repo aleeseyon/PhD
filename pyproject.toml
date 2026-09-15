@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phd-qi"
+version = "0.1.0"
+description = "Uncertainty-aware quantitative interpretation research code"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.6", "pre-commit>=3.7"]
+science = ["numpy>=1.26", "scipy>=1.13", "pandas>=2.2", "matplotlib>=3.8", "jupyterlab>=4"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+title: "Uncertainty-Aware Quantitative Interpretation for Reservoir Characterisation"
+message: "If you use this repository, please cite the project and the relevant published paper."
+authors:
+  - family-names: "REPLACE"
+    given-names: "REPLACE"
+version: 0.1.0
+date-released: 2026-09-15
+repository-code: "https://github.com/REPLACE/REPLACE"
+license: MIT
+abstract: >-
+  Research code and workflows for propagating uncertainty through seismic
+  quantitative interpretation, AVO, rock physics, and reservoir characterisation.

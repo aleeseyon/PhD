@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+*.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Data and generated outputs
+data/raw/*
+data/external/*
+data/interim/*
+data/processed/*
+reports/generated/*
+manuscript/**/build/
+*.segy
+*.sgy
+*.las
+*.h5
+*.hdf5
+
+# Secrets and local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
